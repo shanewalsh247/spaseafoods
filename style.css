@@ -170,10 +170,20 @@ header nav ul li a {
 
 /*INDEX*/
 
+.index-banner2 {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('C:/img/banner42.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
 .index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url('banner42.jpg');
+  background-image: url('C:/img/shopbanner.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -199,7 +209,28 @@ header nav ul li a {
 .index-banner h1 {
   font-family: Cormorant Garamond;
   font-size: 28px;
-  font-weight: 100;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner2 h2 {
+  font-family: Catamaran;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner2 h1 {
+  font-family: Cormorant Garamond;
+  font-size: 28px;
+  font-weight: 900;
   font-style: italic;
   line-height: 40px;
   color: #fff;
@@ -238,7 +269,17 @@ p {
     height: 450px;
   }
 
+  .index-banner2 {
+    height: 450px;
+  }
+
   .index-banner h1 {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+  }
+
+  .index-banner2 h1 {
     display: block;
     width: 560px;
     margin: 0 auto;
